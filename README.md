@@ -36,7 +36,7 @@ python train.py
 if you don't create any new config file.
 
 ### ...Or downloading the trained model
-If you want to skip the training step, you can download the trained model from [here]() and extract right in the current working directory.
+If you want to skip the training step, you can download the trained model from [here](https://drive.google.com/file/d/1SFEpNQLot3amIjlcuXljzYtoFLttQEVb/view?usp=sharing) and extract right in the current working directory.
 
 ### Generating essays
 In the [`demo/question.txt`](demo/question.txt) file, enter the questions you want the model to answer. You can add more than one question, and separate the questions using `"\n###\n"`. Finally, run:
