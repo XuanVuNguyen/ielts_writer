@@ -1,0 +1,17 @@
+pretrained_name_or_path: "gpt2"
+batch_size: 4
+max_length: 700
+num_training_epochs: 20
+num_warmup_epochs: 2
+lr: 0.00005
+
+eval_frequency: 1
+device_name: "gpu"
+devices: [1]
+grad_accumulate_steps: 8
+grad_checkpointing: false
+parallel_strategy: "ddp_sharded"
+
+data_path: "data/data.csv"
+log_dir: "logs"
+exp_name: "test"
