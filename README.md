@@ -10,7 +10,7 @@ The dataset consists of pairs of question and answer crawled from [this website]
 ```
 "<|question|>What is the meaning of life?<|answer|>Life is constant suffering.<|endoftext|>"
 ```
-In total I was only able to gather 2415 sammples, splited into train and val set with the ratio of 0.85:0.15.
+In total I was only able to gather 2415 sammples, splited into train and val set with the ratio of 0.9:0.1.
 This number of samples is definitely low, which is reflected in the modest quality of the model's output.
 
 The pretrained [GPT2](https://huggingface.co/docs/transformers/model_doc/gpt2#transformers.GPT2LMHeadModel) model was downloaded from the HuggingFace library.

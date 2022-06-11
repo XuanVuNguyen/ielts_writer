@@ -1,4 +1,3 @@
-from ast import arg
 import os
 import argparse
 from typing import Union, List

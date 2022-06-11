@@ -23,7 +23,9 @@ class Config:
     log_dir: str = "logs"
     exp_name: str = "test"    
 
-def get_train_config(config: dict={}):
+def get_train_config(config: Optional[dict]=None):
+    if config is None:
+        config = {}
     output_config = Config()
     for key, value in config.items():
         if key in output_config.__dict__.keys():
